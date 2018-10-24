@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), rgb(41, 41, 41));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    padding: .5em 1em;
+    color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-title {
+    margin: 0;
+}
+
+.right-header-text h3 {
+    margin: 0;
+}
+
+.right-header-text p {
+    margin: 0;
+    text-align: right;
+    color: gray;
+    font-weight: 100;
+}
+
+.right-header-text {
+    margin-right: .5em;
+}
+
+.right-header-circle {
+    background-color: rgb(55, 160, 209);
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 5em rgba(142, 142, 142, 0.2), 0 0 1em grey;
+}
+
+.right-header-circle h3 {
+    margin: 0;
+}
+
+.first-content {
+    padding: 1em 1em;
+    color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-circle h1 {
+    margin: 0;
+    display: inline;
+}
+
+.coin-circle {
+    margin-right: 1em;
+    background-color: rgb(209, 140, 12);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 1em rgb(71, 71, 71);
+}
+
+.coin-name {
+    margin: 0;
+    margin-right: .5em;
+}
+
+.coin-key {
+    margin: 0;
+}
+
+.first-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
