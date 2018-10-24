@@ -4,6 +4,7 @@ body {
     background-size: cover;
     height: 100vh;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -23,6 +24,7 @@ header {
 
 .page-title {
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .right-header-text h3 {
@@ -44,7 +46,7 @@ header {
     background-color: rgb(55, 160, 209);
     padding: 1em;
     border-radius: 1em;
-    box-shadow: 0 0 5em rgba(142, 142, 142, 0.2), 0 0 1em grey;
+    box-shadow: 0 0 5em rgba(142, 142, 142, 0.2), 0 0 1em rgb(65, 65, 65);
 }
 
 .right-header-circle h3 {
@@ -63,6 +65,7 @@ header {
 .coin-circle h1 {
     margin: 0;
     display: inline;
+
 }
 
 .coin-circle {
